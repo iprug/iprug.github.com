@@ -11,4 +11,4 @@ No talk volunteers again this month (hint hint), so let's do some coding! I'm go
 
 I'll pick a kata and we can rotate round doing paired TDD on the projector (don't worry, no-one'll pick on your code)
 
-Usual time and place -- 7pm for 7.30 start in the Brewery Tap. Tuesday 1 October. **Note that we'll be in the Tolly Room (downstairs) this month.**
+Usual time and place -- 7pm for 7.30 start in the Brewery Tap. Tuesday 1 October.
