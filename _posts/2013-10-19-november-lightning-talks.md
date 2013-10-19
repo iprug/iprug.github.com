@@ -14,7 +14,7 @@ about for five(ish) minutes. No fixed format &ndash; if you want to do it
 [Ignite](http://en.wikipedia.org/wiki/Ignite_(event) or [Pecha
 Kucha](http://en.wikipedia.org/wiki/Pecha_Kucha) style that's fine, but so is a
 simple five-minute talk. Subject-wise, anything that's at least tenuously
-related to Ruby is fine.
+related to Ruby is fair game.
 
 As usual it'll be the first Tuesday of the month (in this case 5 November) Also
 as usual, we'll be at the [Brewery Tap](http://thebrewerytap.org/) from about
