@@ -14,3 +14,5 @@ talks, I thought we'd just have a social meet-up this month. Usual time and
 place (Tuesday 7 January at the Brewwwery Tap from 7pm), but just food, drink
 and chat. And please have a think about whether there's anything you could talk
 about in February.
+
+**Update:** There'll be a ruby-based quiz too!
