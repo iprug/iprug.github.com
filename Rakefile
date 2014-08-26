@@ -40,6 +40,8 @@ module JB
   end #Path
 end #JB
 
+task :default => :"jasmine:ci"
+
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
@@ -307,3 +309,5 @@ end
 
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
+require 'jasmine'
+load 'jasmine/tasks/jasmine.rake'
