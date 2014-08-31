@@ -24,4 +24,19 @@ var IPRUG = {};
   function beginningOfNextMonth(date) {
     return date.clone().moveToFirstDayOfMonth().add({months: 1});
   }
+
+  IPRUG.extraDateMessage = function(date) {
+    var daysToGo = Math.floor(( IPRUG.nextDate() - date) / 86400000);
+    if (daysToGo === 0) {
+      return " (that's tonight!)";
+    } else if (daysToGo === 1) {
+      return " (that's tomorrow!)";
+    } else if (daysToGo === 2) {
+      return " (that's this Tuesday!)";
+    } else if (daysToGo <= 7) {
+      return " (that's next Tuesday!)";
+    } else {
+      return "";
+    }
+  };
 })();
