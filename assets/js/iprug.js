@@ -1,5 +1,7 @@
 var IPRUG = {};
 
+// Requires DateJS (http://www.datejs.com/)
+//
 (function() {
   IPRUG.nextDate = function(currentDate) {
     if (currentDate === undefined) { currentDate = new Date(); }
@@ -12,21 +14,14 @@ var IPRUG = {};
   };
 
   function firstPossibleDateInMonthFor(date) {
-    var firstPossibleDate = new Date(date);
-    firstPossibleDate.setDate(9);
-    return firstPossibleDate;
+    return date.clone().set({day: 9});
   }
 
   function firstTuesdayOnOrAfter(date) {
-    var firstTuesday = new Date(date);
-    firstTuesday.setDate(date.getDate() + ((9 - date.getDay()) % 7));
-    return firstTuesday;
+    return date.clone().add(-1).day().next().tuesday();
   }
 
   function beginningOfNextMonth(date) {
-    var nextMonth = new Date(date);
-    nextMonth.setDate(1);
-    nextMonth.setMonth(date.getMonth() + 1);
-    return nextMonth;
+    return date.clone().moveToFirstDayOfMonth().add({months: 1});
   }
 })();
