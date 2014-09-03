@@ -26,7 +26,7 @@ var IPRUG = {};
   }
 
   IPRUG.extraDateMessage = function(date) {
-    var daysToGo = Math.floor(( IPRUG.nextDate() - date) / 86400000);
+    var daysToGo = Math.floor(( IPRUG.nextDate(date) - date) / 86400000);
     if (daysToGo === 0) {
       return " (that's tonight!)";
     } else if (daysToGo === 1) {
