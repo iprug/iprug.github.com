@@ -18,4 +18,9 @@ and we'll give it another go. We'll just be wherever we can get a table in the
 pub rather than having a room to ourselves, but that shouldn't be a problem.
 Bring a laptop or pair up with someone else.
 
+**Important:** it will make life much easier if you checkout
+[this project](https://github.com/kerryb/iprug-ruby-golf-2015)
+first, and follow the setup instructions, rather than relying on wifi on the
+night!
+
 Tuesday April 14th, 7pm at the Tap as usual.
